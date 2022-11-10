@@ -81,6 +81,7 @@ function restyle (input){
     document.body.style.backgroundColor = "#ffedde";
     outputText.style.color = "#8f0110";
     heading.style.color = "#8f0110";
+    button.innerText = "reroll the image or try another number :)!"
   }
   else if (input == 1){
     document.body.style.borderStyle = "double";
@@ -89,6 +90,7 @@ function restyle (input){
     document.body.style.backgroundColor = "#7a2626";
     outputText.style.color = "#301102";
     heading.style.color = "black";
+    button.innerText = "reroll the image or try another number :)!"
 
   }
   else if (input == 2){
@@ -98,6 +100,7 @@ function restyle (input){
     document.body.style.backgroundColor = "#def5ff";
     outputText.style.color = "#e0a046";
     heading.style.color = "#e0a046";
+    button.innerText = "reroll the image or try another number :)!"
 
   }
   else if (input == 3){
@@ -107,9 +110,11 @@ function restyle (input){
     document.body.style.backgroundColor = "#ecd4ff";
     outputText.style.color = "#e84a87";
     heading.style.color = "#e84a87";
+    button.innerText = "reroll the image or try another number :)!"
 
   } else{
     outputText.style.color = "red";
+    button.innerText = "enter"
 
   }
 
