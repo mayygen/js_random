@@ -1,0 +1,45 @@
+body{
+  background-color: #ffc4d4;
+  text-align: center;
+}
+
+@font-face {
+  font-family: honey;
+  src: url(honey.otf);
+}
+
+@font-face {
+  font-family: song;
+  src: url(song.ttf);
+}
+
+.mainContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmin;
+}
+
+h1{
+  color: #fff2e3;
+  font-size: 7vw;
+  font-family: honey;
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: #4a2001;
+}
+
+#instructions{
+  color: #fff2e3;
+  font-size: 4vw;
+  font-family: song;
+  font-weight: bold;
+}
+
+#picture{
+  height: 35vh;
+  object-fit: contain;
+  object-position: center center;
+}
